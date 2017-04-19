@@ -1,7 +1,7 @@
 import React from 'react';
 import { IndexRoute, Router, Route, hashHistory } from 'react-router';
-import Home from './containers/Home';
-import App from './containers/App';
+import Home from './containers/Home/Home';
+import App from './containers/App/App';
 
 Router.prototype.componentWillReceiveProps = function(nextProps) {
   let components = [];
