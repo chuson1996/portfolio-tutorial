@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import {Container} from '../../theme/grid';
+import {Container} from 'theme/grid';
 import {
   Image,
   HeroImage,
