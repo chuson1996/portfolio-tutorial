@@ -1359,7 +1359,7 @@ cosmiconfig@^2.1.0, cosmiconfig@^2.1.1:
     parse-json "^2.2.0"
     require-from-string "^1.1.0"
 
-create-react-class@^15.5.1:
+create-react-class@^15.5.1, create-react-class@^15.5.2:
   version "15.5.2"
   resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.5.2.tgz#6a8758348df660b88326a0e764d569f274aad681"
   dependencies:
@@ -1443,6 +1443,14 @@ css-selector-tokenizer@^0.7.0:
     cssesc "^0.1.0"
     fastparse "^1.1.1"
     regexpu-core "^1.0.0"
+
+css-to-matrix@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/css-to-matrix/-/css-to-matrix-1.0.0.tgz#29b2f55fd12689916f940d5a6f2f4dd06782261e"
+  dependencies:
+    matrix-utilities "^1.2"
+    transform-to-matrix "~0"
+    umodel "~0"
 
 css-to-react-native@^1.0.6:
   version "1.0.6"
@@ -3421,6 +3429,10 @@ math-expression-evaluator@^1.2.14:
   version "1.2.16"
   resolved "https://registry.yarnpkg.com/math-expression-evaluator/-/math-expression-evaluator-1.2.16.tgz#b357fa1ca9faefb8e48d10c14ef2bcb2d9f0a7c9"
 
+matrix-utilities@^1.2:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/matrix-utilities/-/matrix-utilities-1.2.4.tgz#ceb9dab6458f4a9556dc36e91daf7ecbfeaeac76"
+
 media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
@@ -3871,7 +3883,7 @@ pbkdf2-compat@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/pbkdf2-compat/-/pbkdf2-compat-2.0.1.tgz#b6e0c8fa99494d94e0511575802a59a5c142f288"
 
-performance-now@^0.2.0:
+performance-now@^0.2.0, performance-now@~0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-0.2.0.tgz#33ef30c5c77d4ea21c5a53869d91b56d8f2555e5"
 
@@ -4226,7 +4238,7 @@ promise@^7.1.1, promise@7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@~15.5.7:
+prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@~15.5.7:
   version "15.5.8"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.8.tgz#6b7b2e141083be38c8595aa51fc55775c7199394"
   dependencies:
@@ -4281,6 +4293,12 @@ querystring@0.2.0:
 querystringify@0.0.x:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-0.0.4.tgz#0cf7f84f9463ff0ae51c4c4b142d95be37724d9c"
+
+raf@^3.1.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/raf/-/raf-3.3.0.tgz#93845eeffc773f8129039f677f80a36044eee2c3"
+  dependencies:
+    performance-now "~0.2.0"
 
 railroad-diagrams@^1.0.0:
   version "1.0.0"
@@ -4361,6 +4379,15 @@ react-hot-loader@next:
     redbox-react "^1.2.5"
     source-map "^0.4.4"
 
+react-motion:
+  version "0.4.8"
+  resolved "https://registry.yarnpkg.com/react-motion/-/react-motion-0.4.8.tgz#23bb2dd27c2d8e00d229e45572d105efcf40a35e"
+  dependencies:
+    create-react-class "^15.5.2"
+    performance-now "^0.2.0"
+    prop-types "^15.5.8"
+    raf "^3.1.0"
+
 react-proxy@^3.0.0-alpha.0:
   version "3.0.0-alpha.1"
   resolved "https://registry.yarnpkg.com/react-proxy/-/react-proxy-3.0.0-alpha.1.tgz#4400426bcfa80caa6724c7755695315209fa4b07"
@@ -4384,6 +4411,12 @@ react-waypoint:
   resolved "https://registry.yarnpkg.com/react-waypoint/-/react-waypoint-6.0.0.tgz#a14c8cb1305bfdf7160ace4f8a087d6c7f745639"
   dependencies:
     consolidated-events "^1.0.1"
+
+react-zoomy:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-zoomy/-/react-zoomy-1.1.1.tgz#5482739887a7a53272ef5914f0678f5120de85df"
+  dependencies:
+    css-to-matrix "^1.0.0"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
@@ -5099,6 +5132,10 @@ tr46@~0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
 
+transform-to-matrix@~0:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/transform-to-matrix/-/transform-to-matrix-0.1.1.tgz#d7e630f3a06cdd946de0be50af9f9418b0315c89"
+
 trim-right@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
@@ -5167,6 +5204,10 @@ uglify-to-browserify@~1.0.0:
 uid-number@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/uid-number/-/uid-number-0.0.6.tgz#0ea10e8035e8eb5b8e4449f06da1c730663baa81"
+
+umodel@~0:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/umodel/-/umodel-0.0.5.tgz#11746cf152f6001300b466e6a65f9b29f45c157b"
 
 underscore@~1.4.4:
   version "1.4.4"
