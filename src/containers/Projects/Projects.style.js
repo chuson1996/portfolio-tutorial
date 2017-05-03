@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+import { yellow } from 'theme/variables';
 
 export const ImageButton = styled.div`
   cursor: pointer;
@@ -13,5 +14,19 @@ export const ImageButton = styled.div`
     & > img {
       transform: scale(1.3);
     }
+  }
+`;
+
+export const Index = styled.div`
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  font-size: 3em;
+  h1 {
+    margin: 0;
+    font-weight: bold;
+    color: ${yellow};
+    opacity: 0.5;
+    transform: translateY(20%);
   }
 `;
