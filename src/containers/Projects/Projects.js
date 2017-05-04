@@ -3,6 +3,7 @@ import Zoomy from 'react-zoomy';
 import {
   ImageButton,
   Index,
+  ImageContainer,
 } from './Projects.style';
 import { Container, Relative, Flex } from 'theme/grid';
 import { A } from 'theme/types';
@@ -37,6 +38,25 @@ class Projects extends Component {
             }}
           />
         </Flex>
+        <Relative marginBottom="100px">
+          <Index>
+            <h1>02</h1>
+          </Index>
+          <h1>npm install --save <A href="">react-image-parallax2</A></h1>
+        </Relative>
+        <ImageContainer>
+          <ParallaxImage
+            reduceHeight={1/3}
+            src={require('assets/basketball1.jpg')}/>
+        </ImageContainer>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
       </Container>
     );
   }

@@ -30,3 +30,7 @@ export const Index = styled.div`
     transform: translateY(20%);
   }
 `;
+
+export const ImageContainer = styled.div`
+  width: 800px;
+`;
