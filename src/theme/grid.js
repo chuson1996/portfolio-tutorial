@@ -5,6 +5,15 @@ export const Div = styled.div`
   ${({ marginBottom }) => marginBottom && css`
     margin-bottom: ${marginBottom};
   `}
+  ${({ marginLeft }) => marginLeft && css`
+    margin-left: ${marginLeft};
+  `}
+  ${({ marginRight }) => marginRight && css`
+    margin-right: ${marginRight};
+  `}
+  ${({ marginTop }) => marginTop && css`
+    margin-top: ${marginTop};
+  `}
 `;
 
 export const Container = styled(Div)`
