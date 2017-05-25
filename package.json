@@ -49,6 +49,7 @@
     "react-hot-loader": "next",
     "react-image-parallax2": "0.1.6",
     "react-motion": "^0.4.8",
+    "react-player": "^0.18.0",
     "react-router": "3.x",
     "react-smooth-scroll": "^0.1.0",
     "react-waypoint": "^6.0.0",
